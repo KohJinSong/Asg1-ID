@@ -1,0 +1,30 @@
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    text-align: center;
+	padding: 20px 22px;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    /* padding: 16px 10px; */
+    min-width: 200px;
+    background-color: gray;
+    background-blend-mode: lighten;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
