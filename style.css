@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0s;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,9 +26,17 @@ li a{
     text-decoration: none;
     text-align: center;
     padding: 20px 22px;
+    color: antiquewhite;
 }
 
 li .search_bar {
     margin-left: auto;
     margin-right: auto;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
 }
