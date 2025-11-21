@@ -1,15 +1,23 @@
-ul{
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
 li{
-    float: left;
+   margin: 5px;
+   padding: 5px;
+   flex: 0 0 auto;
 }
 
 li a{
     text-decoration: none;
     text-align: center;
-	padding: 20px 22px;
+    padding: 20px 22px;
 }
 
 .dropdown{
@@ -27,4 +35,50 @@ li a{
 
 .dropdown:hover .dropdown-content{
     display: block;
+}
+
+.searchs{
+   flex-grow: 1;
+    min-width: 0;
+    height: 32px;
+    border: none;
+    background: transparent;
+    line-height: normal;
+    color: #222;            /* Or use var(--heading-color) if defined */
+    outline: none;
+}
+
+.searchs:focus {
+    outline: none;
+}
+
+.search_bar label {
+    cursor: pointer;
+    margin-left: 4px;
+    color: #888;
+    display: flex;
+    align-items: center;
+}
+
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    background: #eee;
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+
+li .search_bar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacer{
+    flex: 0.5 0.5 auto;
+}
+
+.Header{
+    position: fixed;
 }
