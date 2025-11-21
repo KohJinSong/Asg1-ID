@@ -1,0 +1,57 @@
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    /* padding: 16px 10px; */
+    min-width: 200px;
+    background-color: gray;
+    background-blend-mode: lighten;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.searchs{
+   flex-grow: 1;
+    min-width: 0;
+    height: 32px;
+    border: none;
+    background: transparent;
+    line-height: normal;
+    color: #222;            /* Or use var(--heading-color) if defined */
+    outline: none;
+}
+
+.searchs:focus {
+    outline: none;
+}
+
+.search_bar label {
+    cursor: pointer;
+    margin-left: 4px;
+    color: #888;
+    display: flex;
+    align-items: center;
+}
+
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    background: #eee;
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+
+.spacer{
+    flex: 0.5 0.5 auto;
+}
+
+.Header{
+    position: fixed;
+}
