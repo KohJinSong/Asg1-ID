@@ -6,6 +6,9 @@ ul {
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    top: 0%;
+    left: 0%;
+    height: 80px;
 }
 
 li{

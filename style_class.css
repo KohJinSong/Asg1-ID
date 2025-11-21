@@ -1,3 +1,4 @@
+/*drop down optional still thinking going to add or not*/
 .dropdown{
     position: relative;
 }
@@ -15,6 +16,7 @@
     display: block;
 }
 
+/*search bar classes*/
 .searchs{
    flex-grow: 1;
     min-width: 0;
@@ -48,10 +50,13 @@
     padding: 2px 8px;
 }
 
+/*spacing*/
 .spacer{
     flex: 0.5 0.5 auto;
 }
 
+/*Header */
 .Header{
     position: fixed;
+    background-color: greenyellow;
 }
