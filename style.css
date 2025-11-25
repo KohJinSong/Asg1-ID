@@ -43,3 +43,12 @@ img{
     width: 100%;
     height: auto;
 }
+
+p{
+    text-align: center;
+}
+
+hr{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}

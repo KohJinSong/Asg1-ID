@@ -16,6 +16,19 @@
     display: block;
 }
 
+.fa-star{
+    color: #ffd24c;
+}
+
+.service_image img{
+    max-height: 200px;
+    width: auto;
+}
+
+.service_text{
+    font-size: 20px;
+}
+
 /*search bar classes*/
 .searchs{
    flex-grow: 1;
@@ -89,6 +102,7 @@
     max-height: 140px;
     width: auto;
     background: transparent;
+    object-fit: contain;
 }
 
 .pet-card {
