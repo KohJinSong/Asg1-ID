@@ -1,145 +1,155 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>home</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="style_class.css">
-<script src="https://kit.fontawesome.com/65a93d52da.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>home</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_class.css">
+        <script src="https://kit.fontawesome.com/65a93d52da.js" crossorigin="anonymous"></script>
+    </head>
 
-<body>
-    <header>
-        <ul class="Header">
-            <li>
-                <a href="home.html"><span class="fa-solid fa-house"></span></a>
-            </li>
-            <li>
-                <a href="service.html"><span class="fa-solid fa-shop" ></span></a>
-            </li>
-            <li class="spacer"></li>
-            <li>
-                <div class="search_bar">
-                <input class="searchs" type="search" placeholder="Search" name="search" role="search" id="search" autocomplete="off" autocapitalize="off">
-                <label for="searchs"><span class="fa-solid fa-magnifying-glass"></span></label>
+    <body>
+        <script src="script.js"></script>
+        <header>
+            <ul class="Header">
+                <li>
+                    <a href="home.html"><span class="fa-solid fa-house"></span></a>
+                </li>
+                <li>
+                    <a href="service.html"><span class="fa-solid fa-shop" ></span></a>
+                </li>
+                <li class="spacer"></li>
+                <li>
+                    <div class="search_bar">
+                    <input class="searchs" type="search" placeholder="Search" name="search" role="search" id="search" autocomplete="off" autocapitalize="off">
+                    <label for="searchs"><span class="fa-solid fa-magnifying-glass"></span></label>
+                    </div>
+                </li>
+                <li style="margin-left:auto;"></li>
+                <li>
+                    <a href="cart.html"><span class="fa-solid fa-cart-shopping"></span></a>
+                </li>
+                <li>
+                    <a href="profile.html"><span class="fa-solid fa-user"></span></a>
+                </li>
+            </ul>
+        </header>
+
+        <img src="CAM_20251016192503_0006_D_1761200339451.jpg" alt="cat image">
+        
+        <section class="container">
+            <div class="pet-grid">
+                <div class="pet-card dog-card">
+                    <span class="pet-label">DOG</span>
+                    <img src="dog_image.png" alt="Dog">
                 </div>
-            </li>
-            <li style="margin-left:auto;"></li>
-            <li>
-                <a href="cart.html"><span class="fa-solid fa-cart-shopping"></span></a>
-            </li>
-            <li>
-                <a href="profile.html"><span class="fa-solid fa-user"></span></a>
-            </li>
+            </div>
+            <div class="pet-grid">
+                <div class="pet-card cat-card">
+                    <span class="pet-label">CAT</span>
+                    <img src="cat_image.png" alt="Cat">
+                </div>
+            </div>
+            <div class="pet-grid">
+                <div class="pet-card bird-card">
+                    <span class="pet-label">BIRD</span>
+                    <img src="bird_image.png" alt="Bird">
+                </div>
+            </div>
+            <div class="pet-grid">
+                <div class="pet-card fish-card">
+                    <span class="pet-label">FISH</span>
+                    <img src="fish_image.png" alt="Fish">
+                </div>
+            </div>
+            <div class="pet-grid">
+                <div class="spacer_table"></div>
+            </div>
+            <div class="pet-grid">
+                <div class="pet-card small-animal-card">
+                    <span class="pet-label">SMALL ANIMAL</span>
+                    <img src="small_animal_image.png" alt="Small Animal">
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="item">
+                <div class="item_image">
+                    <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
+                </div>
+                <div class="item_info">
+                    <h4>Frashfresh</h4>
+                    <a href="cart_item1.html" onclick="selectProduct(1)" class="purchase_cart"><p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p></a>
+                    <p>$65.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item_image">
+                    <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
+                </div>
+                <div class="item_info">
+                    <h4>Frashfresh</h4>
+                    <a href="cart_item1.html" class="purchase_cart"><p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p></a>
+                    <p>$65.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item_image">
+                    <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
+                </div>
+                <div class="item_info">
+                    <h4>Frashfresh</h4>
+                    <a href="cart_item1.html" class="purchase_cart"><p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p></a>
+                    <p>$65.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item_image">
+                    <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
+                </div>
+                <div class="item_info">
+                    <h4>Frashfresh</h4>
+                    <a href="cart_item1.html" class="purchase_cart"><p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p></a>
+                    <p>$65.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item_image">
+                    <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
+                </div>
+                <div class="item_info">
+                    <h4>Frashfresh</h4>
+                    <a href="cart_item1.html" class="purchase_cart"><p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p></a>
+                    <p>$65.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item_image">
+                    <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
+                </div>
+                <div class="item_info">
+                    <h4>Frashfresh</h4>
+                    <a href="cart_item1.html" class="purchase_cart"><p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p></a>
+                    <p>$65.00</p>
+                </div>
+            </div>
+        </section>
+        
+        <hr>
+
+        <p>Real Reviews From Real Pet Parents</p>
+        <p><span class="fa-solid fa-star"></span><span class="fa-solid fa-star"></span><span class="fa-solid fa-star"></span><span class="fa-solid fa-star"></span><span class="fa-solid fa-star"></span></p>
+        <p>Trusted by 7598 Pet Owners for All Their Pet Essentials</p>
+
+        <hr>
+
+        <ul>
+            <li class="footer">Copyright © 2025 DrWabbit Inc. All rights reserved.</li>
+            <li class="footer">Legal Terms</li>
+            <li class="footer">Privacy Policy</li>
+            <li class="footer">Cookie Policy</li>
+            <li style="float: right" class="footer">FOR PETS OWNER. BY PETS OWNER.™</li>
         </ul>
-    </header>
-
-    <img src="CAM_20251016192503_0006_D_1761200339451.jpg" alt="cat image">
-    
-    <section class="container">
-        <div class="pet-grid">
-            <div class="pet-card dog-card">
-                <span class="pet-label">DOG</span>
-                <img src="dog_image.png" alt="Dog">
-            </div>
-        </div>
-        <div class="pet-grid">
-            <div class="pet-card cat-card">
-                <span class="pet-label">CAT</span>
-                <img src="cat_image.png" alt="Cat">
-            </div>
-        </div>
-        <div class="pet-grid">
-            <div class="pet-card bird-card">
-                <span class="pet-label">BIRD</span>
-                <img src="bird_image.png" alt="Bird">
-            </div>
-        </div>
-        <div class="pet-grid">
-            <div class="pet-card fish-card">
-                <span class="pet-label">FISH</span>
-                <img src="fish_image.png" alt="Fish">
-            </div>
-        </div>
-        <div class="pet-grid">
-            <div class="spacer_table"></div>
-        </div>
-        <div class="pet-grid">
-            <div class="pet-card small-animal-card">
-                <span class="pet-label">SMALL ANIMAL</span>
-                <img src="small_animal_image.png" alt="Small Animal">
-            </div>
-        </div>
-    </section>
-
-    <section class="container">
-        <div class="item">
-            <div class="item_image">
-                <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
-            </div>
-            <div class="item_info">
-                <h4>Frashfresh</h4>
-                <p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p>
-                <p>$65.00</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
-            </div>
-            <div class="item_info">
-                <h4>Frashfresh</h4>
-                <p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p>
-                <p>$65.00</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
-            </div>
-            <div class="item_info">
-                <h4>Frashfresh</h4>
-                <p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p>
-                <p>$65.00</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
-            </div>
-            <div class="item_info">
-                <h4>Frashfresh</h4>
-                <p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p>
-                <p>$65.00</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
-            </div>
-            <div class="item_info">
-                <h4>Frashfresh</h4>
-                <p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p>
-                <p>$65.00</p>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item_image">
-                <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="dog food">
-            </div>
-            <div class="item_info">
-                <h4>Frashfresh</h4>
-                <p>*FROZEN* Frashfresh Raw Dog Food Low-Allergen Kangaroo 2.25kg (15 x 150g) Sale price</p>
-                <p>$65.00</p>
-            </div>
-        </div>
-    </section>
-    
-    <hr>
-
-    <p>Real Reviews From Real Pet Parents</p>
-    <p><span class="fa-solid fa-star"></span><span class="fa-solid fa-star"></span><span class="fa-solid fa-star"></span><span class="fa-solid fa-star"></span><span class="fa-solid fa-star"></span></p>
-    <p>Trusted by 7598 Pet Owners for All Their Pet Essentials</p>
-
-    <hr>
-</body>
+    </body>
+</html>

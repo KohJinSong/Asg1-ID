@@ -10,7 +10,6 @@
 
     <body style="width: 100%;">
         <script src="script.js"></script>
-        <script> window.addEventListener('DOMContentLoaded', handleCartRedirect); </script>
         <header>
             <ul class="Header">
                 <li>
@@ -52,11 +51,32 @@
                             <p>total</p>
                         </div>
                     </div>
+                    <div class="item_cart">
+                        <div>
+                            <img src="FROZEN_FrashfreshRawDogFoodLow-AllergenKangaroo150g_700x.webp" alt="">
+                        </div>
+                        <div class="item_info_cart_details">
+                            <p>Yi Hu Aristo-Cats</p>
+                            <p>Aristo-Cats Premium Plus Tuna with Small White Fish 80g</p>
+                            <p>$4.60</p>
+                        </div>
+                        <div>
+                            <div class="item_cart" style="margin-top: 30px; margin-left: 70px;">
+                                <a href="cart_item1.html" onclick="selectProduct(1)" class="purchase_cart"><span class="fa-solid fa-minus"></span></a>
+                                <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 10px; margin-right: 10px;">2</p>
+                                <span class="fa-solid fa-plus"></span>
+                            </div>
+                        </div>
+                        <div style="margin-left: 80px; margin-top: 20px;">
+                            <p>$9.20</p>
+                        </div>
+                    </div>
+
                 </section>
             </div>
             <div>
                 <section style="margin-left: 100px; padding: 0%;">
-                    <div class="item" style="width: 250px; height: 500px;">
+                    <div class="item" style="width: 250px; height: 500px; flex-direction: row;">
                         <div style="color: #223a74;">
                             <p>
                                 Total
@@ -69,6 +89,9 @@
                                 Tax inc at checkout
                             </p>
                             <button style="object-fit: contain; margin-left: 50px; width: 150px; height: 40px; background: coral;">checkout</button>
+                        </div>
+                        <div style="color: #223a74;">
+                            <p>$9.20</p>
                         </div>
                     </div>
                 </section>
