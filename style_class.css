@@ -29,7 +29,7 @@
     border: none;
     background: transparent;
     line-height: normal;
-    color: #222;            /* Or use var(--heading-color) if defined */
+    color: #222;
     outline: none;
 }
 
@@ -75,19 +75,18 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 100px;
+    justify-content: center;
 }
 
-/*Code for pets till 150*/
+
 .pet-grid{
     padding: 2%;
     flex-grow: 1;
     flex-basis: 20%;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
     margin-left: 20px;
-    /* text-align: center; */
 }
 
 .pet-card img{
@@ -130,9 +129,6 @@
 
 .spacer_table{
     display: flex;
-    /* padding: 2%;
-    flex-grow: 1;
-    flex-basis: 20%; */
     height: 250px;
     width: 230px;
 }
@@ -162,6 +158,7 @@
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+    justify-content: center;
 }
 
 .item_cart{
@@ -184,14 +181,14 @@
     height: 250px;
     width: 150px;
     justify-content: center;
-    text-align: left;
+    text-align: center;
+    align-items: center;
 }
 
 .item_info_cart{
     display: flex;
     flex-direction: row;
     color: #223a74;
-    /* height: 250px; */
     width: 150px;
     justify-content: center;
     text-align: left;
@@ -216,7 +213,6 @@
     display: flex;
     flex-direction: row;
     color: #223a74;
-    /* height: 250px; */
     width: 400px;
     justify-content: center;
     text-align: left;
@@ -234,7 +230,6 @@
 }
 
 .item_info_Profile_details p{
-    /* margin-right: 70px; */
     width: 200px;
     text-align: left;
 }
